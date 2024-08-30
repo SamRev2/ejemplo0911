@@ -1,12 +1,8 @@
-class cadenas
-    def cadena_uno(cadena)
-        cadena = "Hola mundo"
-    end
-  
-    def cadena_dos(cadena)
-        cadena = "Mi nombre es Sam"
-    end
-  
-    def cadena_tres(cadena)
-        cadena = "Mucho gusto"
-    end
+    nombre = "Samuel"
+    cadena1 = nombre.upcase
+    puts cadena1
+    cadena2 = nombre.downcase
+    puts cadena2
+    cadena3 = nombre.capitalize
+    puts cadena3
+    
