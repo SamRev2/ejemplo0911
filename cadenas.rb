@@ -1,3 +1,4 @@
+class Cadenas
     nombre = "Samuel"
     cadena1 = nombre.upcase
     puts cadena1
@@ -5,4 +6,4 @@
     puts cadena2
     cadena3 = nombre.capitalize
     puts cadena3
-    
+end
