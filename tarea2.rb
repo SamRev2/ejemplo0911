@@ -15,6 +15,9 @@ class ContadordePalabras
         puts "La palabra #{palabra} se repitió un total de #{numero} veces"
       end
     end
+    def actualizar_cadena(actualiza_cadena)
+        @cadena = actualiza_cadena
+    end    
 
     def to_s
       "La variable de instancia es '#{@cadena}'"
@@ -24,5 +27,8 @@ end
 cadena = "Casa CARRO bicicleta carro"
 instancia = ContadordePalabras.new(cadena)
 instancia.contar_palabras
-puts instancia.to_s
 
+actualiza_cadena = "La nueva Cadena ES nueva"
+instancia.actualizar_cadena(actualiza_cadena)
+instancia.contar_palabras
+puts instancia.to_s
